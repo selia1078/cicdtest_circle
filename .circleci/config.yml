@@ -10,7 +10,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - '6f:b2:7f:9d:14:5c:70:fe:4d:96:31:f8:9e:70:6e:01'
+            - '61:67:72:71:73:41:de:14:4a:58:9f:12:4d:16:7a:a0'
       - checkout # 从githun拉去代码
       # 使用缓存
       - restore_cache:
