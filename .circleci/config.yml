@@ -8,6 +8,9 @@ jobs:
       - master
     # Steps are a list of commands to run inside the docker container above.
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - '2d:27:e8:3d:29:b5:99:a8:8b:4a:e7:fb:27:6e:84:16'
       - checkout # 从githun拉去代码
       # 使用缓存
       - restore_cache:
